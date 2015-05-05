@@ -1,0 +1,5 @@
+// Ignore OSX files
+.DS_Store
+
+// Ignore SASS cache
+.sass-cache
