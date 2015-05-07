@@ -75,6 +75,15 @@ ul.facts {
   width: auto;
 }
 
+@media all and (min-width: 701px) {
+  #bbox-root {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+// Set colors and gradients
+
 .gradient-blue {
   @include gradient-blue();
 }
