@@ -1,8 +1,16 @@
 #header {
   @include background(url('../images/color-ribbon.png') 0 bottom repeat-x, linear-gradient(left, #231F20, #565759 22%, #231F20 57%, #818285));
+  color: white;
   padding-bottom: 7px;
   #logo {
-    margin: $grid-gutter-half 0;
+    margin-top: $grid-gutter-half;
+    margin-bottom: $grid-gutter-half;
+  }
+  h1 {
+    font-size: $font-size-h3;
+    font-weight: 700;
+    margin-top: 27px;
+    text-transform: uppercase;
   }
 }
 
