@@ -1,3 +1,7 @@
+// General Compass plugins
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+
 // Import Bootstrap Compass integration
 @import "bootstrap-compass";
 
@@ -9,8 +13,6 @@
 
 // Import Bootstrap for Sass
 @import "bootstrap";
-
-@import "compass/css3";
 
 // Import custom mixins
 @import "mixins";

@@ -40,14 +40,18 @@ button {
 }
 
 ul.facts {
-  margin: 0;
+  margin: 2em 0;
   padding: 0;
+  @include clearfix();
   li {
     list-style-type: none;
     border-left-width: 2px;
     border-left-style: dotted;
     border-left-color: $color-blue;
     height: 10em;
+    &.last {
+      border-right: 2px dotted $color-blue;
+    }
   }
   h3, h4 {
     font-weight: 700;
