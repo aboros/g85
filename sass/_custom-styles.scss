@@ -1,0 +1,124 @@
+#header {
+  @include background(url('../images/color-ribbon.png') 0 bottom repeat-x, linear-gradient(left, #231F20, #565759 22%, #231F20 57%, #818285));
+  padding-bottom: 7px;
+  #logo {
+    margin: $grid-gutter-half 0;
+  }
+}
+
+#main {
+  background-color: #fff;
+  padding-top: $grid-gutter-width;
+}
+
+section {
+  margin-bottom: $grid-gutter-half;
+}
+
+section.jumbotron {
+  color: white;
+  font-family: $font-family-serif;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.align-center {
+  text-align: center;
+}
+
+ul.facts {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style-type: none;
+    border-left-width: 2px;
+    border-left-style: dotted;
+    border-left-color: $color-blue;
+    height: 10em;
+  }
+  h3, h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  h3 {
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+    font-size: 4em;
+    margin-top: 0;
+  }
+  h4 {
+    font-size: $font-size-base;
+  }
+}
+
+.gradient-blue {
+  @include gradient-blue();
+}
+
+.gradient-orange {
+  @include gradient-orange();
+}
+
+.gradient-green {
+  @include gradient-green();
+}
+
+.color-blue {
+  color: $color-blue;
+  border-color: $color-blue;
+  > * {
+    border-color: $color-blue;
+  }
+}
+
+.color-orange {
+  color: $color-orange;
+  border-color: $color-orange;
+  > * {
+    border-color: $color-orange;
+  }
+}
+
+.color-orange-dark {
+  color: $color-orange-dark;
+  border-color: $color-orange-dark;
+  > * {
+    border-color: $color-orange-dark;
+  }
+}
+
+.color-green {
+  color: $color-green;
+  border-color: $color-green;
+  > * {
+    border-color: $color-green;
+  }
+}
+.color-green-dark {
+  color: $color-green-dark;
+  border-color: $color-green-dark;
+  > * {
+    border-color: $color-green-dark;
+  }
+}
+
+.color-pink {
+  color: $color-pink;
+  border-color: $color-pink;
+  > * {
+    border-color: $color-pink;
+  }
+}
+
+.color-purple {
+  color: $color-purple;
+  border-color: $color-purple;
+  > * {
+    border-color: $color-purple;
+  }
+}

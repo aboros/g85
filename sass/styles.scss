@@ -10,5 +10,10 @@
 // Import Bootstrap for Sass
 @import "bootstrap";
 
+@import "compass/css3";
+
+// Import custom mixins
+@import "mixins";
+
 // Import custom styles
 @import "custom-styles";

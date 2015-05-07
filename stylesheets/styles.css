@@ -1740,12 +1740,12 @@ textarea {
 
 /* line 48, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #337ab7;
+  color: #00a9d5;
   text-decoration: none;
 }
 /* line 52, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #23527c;
+  color: #006c89;
   text-decoration: underline;
 }
 /* line 58, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -2009,12 +2009,12 @@ mark,
 
 /* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #337ab7;
+  color: #00a9d5;
 }
 
 /* line 8, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: #286090;
+  color: #0081a2;
 }
 
 /* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
@@ -2064,12 +2064,12 @@ a.text-danger:hover {
 
 /* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #337ab7;
+  background-color: #00a9d5;
 }
 
 /* line 8, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: #286090;
+  background-color: #0081a2;
 }
 
 /* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
@@ -2365,13 +2365,13 @@ pre code {
 @media (min-width: 992px) {
   /* line 10, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 970px;
+    width: 730px;
   }
 }
 @media (min-width: 1200px) {
   /* line 10, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 1170px;
+    width: 730px;
   }
 }
 
@@ -4427,7 +4427,7 @@ select[multiple].input-lg,
 }
 /* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn:hover, .btn:focus, .btn.focus {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 /* line 39, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4449,15 +4449,15 @@ select[multiple].input-lg,
 
 /* line 60, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+  background-color: #B71C8D;
+  border-color: #B71C8D;
 }
 /* line 11, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #fff;
+  background-color: #8b156b;
+  border-color: #821464;
 }
 /* line 21, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
@@ -4465,26 +4465,26 @@ select[multiple].input-lg,
 }
 /* line 29, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #B71C8D;
+  border-color: #B71C8D;
 }
 /* line 40, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-default .badge {
-  color: #fff;
-  background-color: #333;
+  color: #B71C8D;
+  background-color: #fff;
 }
 
 /* line 63, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #00a9d5;
+  border-color: #0095bc;
 }
 /* line 11, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #0081a2;
+  border-color: #00647e;
 }
 /* line 21, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -4492,12 +4492,12 @@ select[multiple].input-lg,
 }
 /* line 29, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #00a9d5;
+  border-color: #0095bc;
 }
 /* line 40, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_buttons.scss */
 .btn-primary .badge {
-  color: #337ab7;
+  color: #00a9d5;
   background-color: #fff;
 }
 
@@ -4611,7 +4611,7 @@ select[multiple].input-lg,
 
 /* line 88, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #337ab7;
+  color: #00a9d5;
   font-weight: normal;
   border-radius: 0;
 }
@@ -4627,7 +4627,7 @@ select[multiple].input-lg,
 }
 /* line 107, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #23527c;
+  color: #006c89;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4803,7 +4803,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #337ab7;
+  background-color: #00a9d5;
 }
 
 /* line 102, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_dropdowns.scss */
@@ -5321,7 +5321,7 @@ tbody.collapse.in {
 /* line 46, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #337ab7;
+  border-color: #00a9d5;
 }
 /* line 59, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -5379,7 +5379,7 @@ tbody.collapse.in {
 /* line 131, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #00a9d5;
 }
 
 /* line 144, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_navs.scss */
@@ -6151,7 +6151,7 @@ tbody.collapse.in {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #337ab7;
+  color: #00a9d5;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -6173,7 +6173,7 @@ tbody.collapse.in {
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  color: #23527c;
+  color: #006c89;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -6184,8 +6184,8 @@ tbody.collapse.in {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #fff;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #00a9d5;
+  border-color: #00a9d5;
   cursor: default;
 }
 /* line 63, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_pagination.scss */
@@ -6335,11 +6335,11 @@ a.label:hover, a.label:focus {
 
 /* line 48, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #337ab7;
+  background-color: #00a9d5;
 }
 /* line 7, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_labels.scss */
 .label-primary[href]:hover, .label-primary[href]:focus {
-  background-color: #286090;
+  background-color: #0081a2;
 }
 
 /* line 52, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_labels.scss */
@@ -6409,7 +6409,7 @@ a.label:hover, a.label:focus {
 }
 /* line 41, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
 .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-  color: #337ab7;
+  color: #00a9d5;
   background-color: #fff;
 }
 /* line 47, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_badges.scss */
@@ -6511,7 +6511,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #337ab7;
+  border-color: #00a9d5;
 }
 
 /* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_alerts.scss */
@@ -6650,7 +6650,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: #337ab7;
+  background-color: #00a9d5;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6847,8 +6847,8 @@ a.list-group-item:hover, a.list-group-item:focus {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #00a9d5;
+  border-color: #00a9d5;
 }
 /* line 90, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-heading,
@@ -6862,7 +6862,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 /* line 95, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_list-group.scss */
 .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-  color: #c7ddef;
+  color: #a2ecff;
 }
 
 /* line 4, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_list-group.scss */
@@ -7295,26 +7295,26 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 
 /* line 251, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #337ab7;
+  border-color: #00a9d5;
 }
 /* line 6, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #337ab7;
+  background-color: #00a9d5;
+  border-color: #00a9d5;
 }
 /* line 11, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #337ab7;
+  border-top-color: #00a9d5;
 }
 /* line 14, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-heading .badge {
-  color: #337ab7;
+  color: #00a9d5;
   background-color: #fff;
 }
 /* line 20, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_panels.scss */
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #337ab7;
+  border-bottom-color: #00a9d5;
 }
 
 /* line 254, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_panels.scss */
@@ -8567,4 +8567,174 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+/* line 1, ../sass/_custom-styles.scss */
+#header {
+  background: url("../images/color-ribbon.png") 0 bottom repeat-x, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzMWYyMCIvPjxzdG9wIG9mZnNldD0iMjIlIiBzdG9wLWNvbG9yPSIjNTY1NzU5Ii8+PHN0b3Agb2Zmc2V0PSI1NyUiIHN0b3AtY29sb3I9IiMyMzFmMjAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4MTgyODUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: url("../images/color-ribbon.png") 0 bottom repeat-x, -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #231f20), color-stop(22%, #565759), color-stop(57%, #231f20), color-stop(100%, #818285));
+  background: url("../images/color-ribbon.png") 0 bottom repeat-x, -moz-linear-gradient(left, #231f20, #565759 22%, #231f20 57%, #818285);
+  background: url("../images/color-ribbon.png") 0 bottom repeat-x, -webkit-linear-gradient(left, #231f20, #565759 22%, #231f20 57%, #818285);
+  background: url("../images/color-ribbon.png") 0 bottom repeat-x, linear-gradient(to right, #231f20, #565759 22%, #231f20 57%, #818285);
+  padding-bottom: 7px;
+}
+/* line 4, ../sass/_custom-styles.scss */
+#header #logo {
+  margin: 15px 0;
+}
+
+/* line 9, ../sass/_custom-styles.scss */
+#main {
+  background-color: #fff;
+  padding-top: 30px;
+}
+
+/* line 14, ../sass/_custom-styles.scss */
+section {
+  margin-bottom: 15px;
+}
+
+/* line 18, ../sass/_custom-styles.scss */
+section.jumbotron {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 26, ../sass/_custom-styles.scss */
+button {
+  text-transform: uppercase;
+}
+
+/* line 30, ../sass/_custom-styles.scss */
+.align-center {
+  text-align: center;
+}
+
+/* line 34, ../sass/_custom-styles.scss */
+ul.facts {
+  margin: 0;
+  padding: 0;
+}
+/* line 37, ../sass/_custom-styles.scss */
+ul.facts li {
+  list-style-type: none;
+  border-left-width: 2px;
+  border-left-style: dotted;
+  border-left-color: #00a9d5;
+  height: 10em;
+}
+/* line 44, ../sass/_custom-styles.scss */
+ul.facts h3, ul.facts h4 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 48, ../sass/_custom-styles.scss */
+ul.facts h3 {
+  border-bottom-width: 2px;
+  border-bottom-style: dotted;
+  font-size: 4em;
+  margin-top: 0;
+}
+/* line 54, ../sass/_custom-styles.scss */
+ul.facts h4 {
+  font-size: 14px;
+}
+
+/* line 59, ../sass/_custom-styles.scss */
+.gradient-blue {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNTc4MyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDBjY2VhIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA1NzgzIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #005783), color-stop(50%, #00ccea), color-stop(100%, #005783));
+  background: -moz-linear-gradient(left, #005783, #00ccea, #005783);
+  background: -webkit-linear-gradient(left, #005783, #00ccea, #005783);
+  background: linear-gradient(to right, #005783, #00ccea, #005783);
+}
+
+/* line 63, ../sass/_custom-styles.scss */
+.gradient-orange {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViNjAyZSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZmNiNDI3Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZWI2MDJlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #eb602e), color-stop(50%, #fcb427), color-stop(100%, #eb602e));
+  background: -moz-linear-gradient(left, #eb602e, #fcb427, #eb602e);
+  background: -webkit-linear-gradient(left, #eb602e, #fcb427, #eb602e);
+  background: linear-gradient(to right, #eb602e, #fcb427, #eb602e);
+}
+
+/* line 67, ../sass/_custom-styles.scss */
+.gradient-green {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwNzMzNiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjNDBhZTQ5Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA3MzM2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #007336), color-stop(50%, #40ae49), color-stop(100%, #007336));
+  background: -moz-linear-gradient(left, #007336, #40ae49, #007336);
+  background: -webkit-linear-gradient(left, #007336, #40ae49, #007336);
+  background: linear-gradient(to right, #007336, #40ae49, #007336);
+}
+
+/* line 71, ../sass/_custom-styles.scss */
+.color-blue {
+  color: #00a9d5;
+  border-color: #00a9d5;
+}
+/* line 74, ../sass/_custom-styles.scss */
+.color-blue > * {
+  border-color: #00a9d5;
+}
+
+/* line 79, ../sass/_custom-styles.scss */
+.color-orange {
+  color: #FCB427;
+  border-color: #FCB427;
+}
+/* line 82, ../sass/_custom-styles.scss */
+.color-orange > * {
+  border-color: #FCB427;
+}
+
+/* line 87, ../sass/_custom-styles.scss */
+.color-orange-dark {
+  color: #EB602E;
+  border-color: #EB602E;
+}
+/* line 90, ../sass/_custom-styles.scss */
+.color-orange-dark > * {
+  border-color: #EB602E;
+}
+
+/* line 95, ../sass/_custom-styles.scss */
+.color-green {
+  color: #40AE49;
+  border-color: #40AE49;
+}
+/* line 98, ../sass/_custom-styles.scss */
+.color-green > * {
+  border-color: #40AE49;
+}
+
+/* line 102, ../sass/_custom-styles.scss */
+.color-green-dark {
+  color: #007336;
+  border-color: #007336;
+}
+/* line 105, ../sass/_custom-styles.scss */
+.color-green-dark > * {
+  border-color: #007336;
+}
+
+/* line 110, ../sass/_custom-styles.scss */
+.color-pink {
+  color: #B71C8D;
+  border-color: #B71C8D;
+}
+/* line 113, ../sass/_custom-styles.scss */
+.color-pink > * {
+  border-color: #B71C8D;
+}
+
+/* line 118, ../sass/_custom-styles.scss */
+.color-purple {
+  color: #57357F;
+  border-color: #57357F;
+}
+/* line 121, ../sass/_custom-styles.scss */
+.color-purple > * {
+  border-color: #57357F;
 }

@@ -1,0 +1,32 @@
+// Helper variables
+$grid-gutter-half: $grid-gutter-width / 2;
+
+// Colors
+$color-blue: $brand-primary;
+$color-orange: #FCB427;
+$color-orange-dark: #EB602E;
+$color-green: #40AE49;
+$color-green-dark: #007336;
+$color-pink: #B71C8D;
+$color-purple: #57357F;
+
+// Color gradients
+@mixin gradient-orange {
+  @include background(linear-gradient(left, #EB602E, #FCB427, #EB602E));
+}
+
+@mixin gradient-blue {
+  @include background(linear-gradient(left, #005783, #00CCEA, #005783));
+}
+
+@mixin gradient-green {
+  @include background(linear-gradient(left, #007336, #40AE49, #007336));
+}
+
+@mixin gradient-pink {
+  @include background(linear-gradient(left, #B71C8D, #EC008C, #B71C8D));
+}
+
+@mixin gradient-purple {
+  @include background(linear-gradient(left, #57357F, #8475B6, #57357F));
+}
