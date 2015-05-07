@@ -68,6 +68,13 @@ ul.facts {
   }
 }
 
+.carousel-indicators {
+  bottom: $grid-gutter-half !important;
+  right: $grid-gutter-half;
+  left: auto;
+  width: auto;
+}
+
 .gradient-blue {
   @include gradient-blue();
 }
