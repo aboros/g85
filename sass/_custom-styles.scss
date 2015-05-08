@@ -31,7 +31,7 @@ section.jumbotron {
   padding-right: 0;
 }
 
-button {
+a.btn {
   text-transform: uppercase;
 }
 
@@ -73,6 +73,52 @@ ul.facts {
   right: $grid-gutter-half;
   left: auto;
   width: auto;
+}
+
+#carousel-quotes {
+  padding-top: $grid-gutter-width;
+  padding-bottom: $grid-gutter-width;
+  .carousel-indicators li {
+  border-color: $gray-light;
+    &.active {
+      background-color: $gray-light;  
+    }
+  }
+  p {
+    margin: 0;
+    color: $color-blue;
+    font-family: $font-family-serif;
+    &.quote {
+      border-bottom: 2px dotted $color-blue;
+      border-top: 2px dotted $color-blue;
+      color: $text-color;
+      font-size: $font-size-large;
+      padding: $grid-gutter-half 0;
+      font-style: italic;
+    }
+    &.person {
+      text-transform: uppercase;
+      margin-top: $grid-gutter-half;
+    }
+    &.organization {
+      font-family: $font-family-base;
+      text-transform: uppercase;
+      font-size: $font-size-small;
+    }
+    &.headline {
+      font-style: italic;
+    }
+  }
+  .item div {
+    &:nth-child(1) {
+      padding-left: 20%;
+      padding-right: 5%;
+    }
+    &:nth-child(2) {
+      padding-left: 5%;
+      padding-right: 20%;
+    }
+  }
 }
 
 @media all and (min-width: 701px) {
