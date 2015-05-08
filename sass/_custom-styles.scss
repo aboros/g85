@@ -2,6 +2,9 @@
   @include background(url('../images/color-ribbon.png') 0 bottom repeat-x, linear-gradient(left, #231F20, #565759 22%, #231F20 57%, #818285));
   color: white;
   padding-bottom: 7px;
+  .container {
+    position: relative;
+  }
   #logo {
     margin-top: $grid-gutter-half;
     margin-bottom: $grid-gutter-half;
@@ -11,6 +14,17 @@
     font-weight: 700;
     margin-top: 27px;
     text-transform: uppercase;
+  }
+  #logo-85th {
+    position: absolute;
+    width: $grid-gutter-width;
+    height: $grid-gutter-width;
+    top: 27px;
+    right: $grid-gutter-half;
+    background: $gray-lighter none;
+    color: $gray-dark;
+    text-align: center;
+    font-family: $font-family-serif;
   }
 }
 
@@ -29,12 +43,29 @@ section.jumbotron {
   margin-bottom: 0;
 }
 
+section#teaser {
+  div.img-container {
+    @include breakpoint($screen-md-min) {
+      width: 35%;
+      float: left;
+      margin-right: $grid-gutter-half;
+      margin-bottom: 1em;
+    }
+  }
+  div.txt-container {
+    @include clearfix();
+  }
+}
+
 a.btn {
   text-transform: uppercase;
 }
 
 .align-center {
   text-align: center;
+}
+.align-right {
+  text-align: right;
 }
 
 ul.facts {
