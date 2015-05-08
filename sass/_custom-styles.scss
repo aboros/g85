@@ -27,8 +27,6 @@ section.jumbotron {
   color: white;
   font-family: $font-family-serif;
   margin-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 a.btn {
@@ -45,12 +43,20 @@ ul.facts {
   @include clearfix();
   li {
     list-style-type: none;
-    border-left-width: 2px;
-    border-left-style: dotted;
-    border-left-color: $color-blue;
-    height: 10em;
-    &.last {
-      border-right: 2px dotted $color-blue;
+    text-align: center;
+    @include breakpoint(max-width $screen-md-min) {
+      width: 60%;
+      margin: $grid-gutter-width 20%;
+    }
+    @include breakpoint($screen-md-min) {
+      border-left-width: 2px;
+      border-left-style: dotted;
+      border-left-color: $color-blue;
+      height: 10em;
+      text-align: left;
+      &.last {
+        border-right: 2px dotted $color-blue;
+      }
     }
   }
   h3, h4 {
@@ -76,8 +82,6 @@ ul.facts {
 }
 
 #carousel-quotes {
-  padding-top: $grid-gutter-width;
-  padding-bottom: $grid-gutter-width;
   .carousel-indicators li {
   border-color: $gray-light;
     &.active {
@@ -110,13 +114,16 @@ ul.facts {
     }
   }
   .item div {
-    &:nth-child(1) {
-      padding-left: 20%;
-      padding-right: 5%;
-    }
-    &:nth-child(2) {
-      padding-left: 5%;
-      padding-right: 20%;
+    padding: $grid-gutter-width 15%;
+    @include breakpoint($screen-md-min) {
+      &:nth-child(1) {
+        padding-left: 2 * $grid-gutter-width;
+        padding-right: $grid-gutter-half;
+      }
+      &:nth-child(2) {
+        padding-left: $grid-gutter-half;
+        padding-right: 2 * $grid-gutter-width;
+      }
     }
   }
 }
