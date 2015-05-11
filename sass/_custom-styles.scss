@@ -31,6 +31,7 @@
 #main {
   background-color: #fff;
   padding-top: $grid-gutter-width;
+  padding-bottom: 3em;
 }
 
 section {
@@ -59,6 +60,7 @@ section#teaser {
 
 a.btn {
   text-transform: uppercase;
+  padding: .5em 4em;
 }
 
 .align-center {
@@ -71,6 +73,7 @@ a.btn {
 ul.facts {
   margin: 2em 0;
   padding: 0;
+  font-family: $font-family-sans-condensed;
   @include clearfix();
   li {
     list-style-type: none;
