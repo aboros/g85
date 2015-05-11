@@ -2363,16 +2363,16 @@ pre code {
     width: 600px;
   }
 }
-@media (min-width: 768px) {
-  /* line 10, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_grid.scss */
-  .container {
-    width: 730px;
-  }
-}
 @media (min-width: 990px) {
   /* line 10, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 960px;
+    width: 990px;
+  }
+}
+@media (min-width: 1280px) {
+  /* line 10, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_grid.scss */
+  .container {
+    width: 1250px;
   }
 }
 
@@ -2937,7 +2937,7 @@ pre code {
     margin-left: 100%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 990px) {
   /* line 27, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -3198,7 +3198,7 @@ pre code {
     margin-left: 100%;
   }
 }
-@media (min-width: 990px) {
+@media (min-width: 1280px) {
   /* line 27, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -7669,7 +7669,7 @@ button.close {
     width: 300px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 990px) {
   /* line 149, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
     width: 900px;
@@ -8350,7 +8350,7 @@ button.close {
   }
 }
 
-@media (min-width: 640px) and (max-width: 767px) {
+@media (min-width: 640px) and (max-width: 989px) {
   /* line 7, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-sm {
     display: block !important;
@@ -8372,28 +8372,28 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 640px) and (max-width: 767px) {
+@media (min-width: 640px) and (max-width: 989px) {
   /* line 71, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-block {
     display: block !important;
   }
 }
 
-@media (min-width: 640px) and (max-width: 767px) {
+@media (min-width: 640px) and (max-width: 989px) {
   /* line 76, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 640px) and (max-width: 767px) {
+@media (min-width: 640px) and (max-width: 989px) {
   /* line 81, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-sm-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 989px) {
+@media (min-width: 990px) and (max-width: 1279px) {
   /* line 7, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-md {
     display: block !important;
@@ -8415,28 +8415,28 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 768px) and (max-width: 989px) {
+@media (min-width: 990px) and (max-width: 1279px) {
   /* line 90, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-block {
     display: block !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 989px) {
+@media (min-width: 990px) and (max-width: 1279px) {
   /* line 95, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 768px) and (max-width: 989px) {
+@media (min-width: 990px) and (max-width: 1279px) {
   /* line 100, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-md-inline-block {
     display: inline-block !important;
   }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 1280px) {
   /* line 7, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .visible-lg {
     display: block !important;
@@ -8458,21 +8458,21 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (min-width: 990px) {
+@media (min-width: 1280px) {
   /* line 109, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-block {
     display: block !important;
   }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 1280px) {
   /* line 114, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline {
     display: inline !important;
   }
 }
 
-@media (min-width: 990px) {
+@media (min-width: 1280px) {
   /* line 119, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/_responsive-utilities.scss */
   .visible-lg-inline-block {
     display: inline-block !important;
@@ -8485,19 +8485,19 @@ button.close {
     display: none !important;
   }
 }
-@media (min-width: 640px) and (max-width: 767px) {
+@media (min-width: 640px) and (max-width: 989px) {
   /* line 18, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 768px) and (max-width: 989px) {
+@media (min-width: 990px) and (max-width: 1279px) {
   /* line 18, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-md {
     display: none !important;
   }
 }
-@media (min-width: 990px) {
+@media (min-width: 1280px) {
   /* line 18, ../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.4.1/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-lg {
     display: none !important;
@@ -8663,14 +8663,14 @@ ul.facts li {
   list-style-type: none;
   text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   /* line 71, ../sass/_custom-styles.scss */
   ul.facts li {
     width: 60%;
     margin: 30px 20%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 990px) {
   /* line 71, ../sass/_custom-styles.scss */
   ul.facts li {
     border-left-width: 2px;
