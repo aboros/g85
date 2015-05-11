@@ -34,26 +34,21 @@
   padding-bottom: 3em;
 }
 
-section {
-  margin-bottom: $grid-gutter-half;
-}
-
-section.jumbotron {
+.jumbotron {
   color: white;
   font-family: $font-family-serif;
   margin-bottom: 0;
 }
 
-section#teaser {
-  .img-container {
-  }
-  .txt-container {
-  }
+#teaser, 
+#carousel-3 {
+  margin-bottom: $grid-gutter-width;
 }
 
 a.btn {
   text-transform: uppercase;
   padding: .5em 4em;
+  margin-top: $grid-gutter-width;
 }
 
 .align-center {
