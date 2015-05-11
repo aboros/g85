@@ -66,11 +66,11 @@ ul.facts {
   li {
     list-style-type: none;
     text-align: center;
-    @include breakpoint(max-width $screen-md-min) {
+    @include breakpoint(max-width $screen-tablet) {
       width: 60%;
       margin: $grid-gutter-width 20%;
     }
-    @include breakpoint($screen-md-min) {
+    @include breakpoint($screen-tablet) {
       border-left-width: 2px;
       border-left-style: dotted;
       border-left-color: $color-blue;

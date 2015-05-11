@@ -3,21 +3,10 @@
 @import "compass/utilities/general/clearfix";
 @import "breakpoint";
 
-// Import Bootstrap Compass integration
-@import "bootstrap-compass";
-
 // Import Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
 
-// Import custom Bootstrap variables
-@import "bootstrap-variables";
-
-// Import Bootstrap for Sass
-@import "bootstrap";
-
-// Import custom mixins
+@import "variables";
 @import "mixins";
-
-// Import custom styles
 @import "custom-styles";
