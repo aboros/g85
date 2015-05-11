@@ -45,16 +45,9 @@ section.jumbotron {
 }
 
 section#teaser {
-  div.img-container {
-    @include breakpoint($screen-md-min) {
-      width: 35%;
-      float: left;
-      margin-right: $grid-gutter-half;
-      margin-bottom: 1em;
-    }
+  .img-container {
   }
-  div.txt-container {
-    @include clearfix();
+  .txt-container {
   }
 }
 
@@ -115,12 +108,12 @@ ul.facts {
   width: auto;
 }
 
-#carousel-quotes {
-  .carousel-indicators li {
-  border-color: $gray-light;
-    &.active {
-      background-color: $gray-light;  
-    }
+#quotes {
+  padding-bottom: 3em;
+  padding-top: 3em;
+  > div {
+    padding-left: $grid-gutter-width;
+    padding-right: $grid-gutter-width;
   }
   p {
     margin: 0;
@@ -147,19 +140,6 @@ ul.facts {
       font-style: italic;
     }
   }
-  .item div {
-    padding: $grid-gutter-width 15%;
-    @include breakpoint($screen-md-min) {
-      &:nth-child(1) {
-        padding-left: 2 * $grid-gutter-width;
-        padding-right: $grid-gutter-half;
-      }
-      &:nth-child(2) {
-        padding-left: $grid-gutter-half;
-        padding-right: 2 * $grid-gutter-width;
-      }
-    }
-  }
 }
 
 @media all and (min-width: 701px) {
@@ -181,6 +161,9 @@ ul.facts {
 
 .gradient-green {
   @include gradient-green();
+}
+.gradient-pink {
+  @include gradient-pink();
 }
 
 .color-blue {
