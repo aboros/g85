@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 h2 {
-  @include adjust-font-size-to($font-size-h2);
+  
 }
 p {
   @include trailer();
@@ -29,7 +29,7 @@ p {
     float: left;
   }
   h1 {
-    @include adjust-font-size-to($font-size-h3);
+    
     font-family: $font-family-sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -64,18 +64,18 @@ section {
   &.headline {
     color: #fff;
     h2 {
-      @include adjust-font-size-to($font-size-h4);
+      
     }
     padding: rhythm(1);
     @include breakpoint($screen-tablet) {
       h2 {
-        @include adjust-font-size-to($font-size-h3);
+        
       }
       padding: rhythm(2) rhythm(4);
     }
     @include breakpoint($screen-desktop) {
       h2 {
-        @include adjust-font-size-to($font-size-h2);
+        
       }
       padding: rhythm(1) rhythm(6);
     }
@@ -165,7 +165,7 @@ ul.facts {
   h3 {
     border-bottom-width: 2px;
     border-bottom-style: dotted;
-    @include adjust-font-size-to($font-size-h1);
+    
     margin-top: 0;
   }
   h4 {
@@ -186,13 +186,12 @@ ul.facts {
       border-bottom: 2px dotted $color-blue;
       border-top: 2px dotted $color-blue;
       color: $text-color;
-      @include adjust-font-size-to($font-size-large);
+      
       padding: $grid-gutter-half 0;
       font-style: italic;
     }
     &.person {
       text-transform: uppercase;
-      margin-top: $grid-gutter-half;
     }
     &.organization {
       font-family: $font-family-base;
