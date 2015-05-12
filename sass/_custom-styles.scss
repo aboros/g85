@@ -1,18 +1,37 @@
+body {
+  font-family: $font-family-sans-serif;
+  @include breakpoint($screen-desktop) {
+    background: $gray-light none;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-serif;
+  font-weight: normal;
+}
+h2 {
+  @include adjust-font-size-to($font-size-h2);
+}
+p {
+  @include trailer();
+}
+
 #header {
   @include background(url('../images/color-ribbon.png') 0 bottom repeat-x, linear-gradient(left, #231F20, #565759 22%, #231F20 57%, #818285));
   color: white;
   padding-bottom: 7px;
+  @include clearfix();
   .container {
     position: relative;
   }
   #logo {
     margin-top: $grid-gutter-half;
     margin-bottom: $grid-gutter-half;
+    float: left;
   }
   h1 {
-    font-size: $font-size-h3;
+    @include adjust-font-size-to($font-size-h3);
+    font-family: $font-family-sans-serif;
     font-weight: 700;
-    margin-top: 27px;
     text-transform: uppercase;
   }
   #logo-85th {
@@ -34,21 +53,52 @@
   padding-bottom: 3em;
 }
 
-.jumbotron {
-  color: white;
-  font-family: $font-family-serif;
-  margin-bottom: 0;
+.container {
+  max-width: 1250px;
+  @include breakpoint($screen-desktop) {
+    margin: 0 auto;
+  }
 }
 
-#teaser, 
-#carousel-3 {
-  margin-bottom: $grid-gutter-width;
+section {
+  &.headline {
+    color: #fff;
+    h2 {
+      @include adjust-font-size-to($font-size-h4);
+    }
+    padding: rhythm(1);
+    @include breakpoint($screen-tablet) {
+      h2 {
+        @include adjust-font-size-to($font-size-h3);
+      }
+      padding: rhythm(2) rhythm(4);
+    }
+    @include breakpoint($screen-desktop) {
+      h2 {
+        @include adjust-font-size-to($font-size-h2);
+      }
+      padding: rhythm(1) rhythm(6);
+    }
+    
+  }
+}
+
+#main img {
+  width: 100%;
+  max-height: auto;
 }
 
 a.btn {
+  display: inline-block;
+  @include gradient-pink();
   text-transform: uppercase;
   padding: .5em 4em;
   margin-top: $grid-gutter-width;
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    background: lighten($color-pink, 10) none;
+  }
 }
 
 .align-center {
@@ -58,37 +108,64 @@ a.btn {
   text-align: right;
 }
 
+#teaser {
+  @include breakpoint($screen-tablet) {
+    @include clearfix();
+    .col {
+      width: 50%;
+      float: left;
+    }
+    .inner {
+      padding: 0 $grid-gutter-half;
+    }
+  }
+  @include breakpoint($screen-desktop) {
+    #col-txt .inner {
+      padding: 0 2em;
+    }
+  }
+  @include breakpoint($screen-lg-desktop) {
+    #col-txt .inner {
+      padding: 2em;
+    }
+  }
+}
+
 ul.facts {
-  margin: 2em 0;
-  padding: 0;
-  font-family: $font-family-sans-condensed;
   @include clearfix();
+  @include breakpoint($screen-tablet) {
+    width: 770px;
+    margin: 0 auto;
+  }
   li {
     list-style-type: none;
     text-align: center;
-    @include breakpoint(max-width $screen-tablet) {
-      width: 60%;
-      margin: $grid-gutter-width 20%;
-    }
+    width: 40%;
+    margin: 0.5em 30%;
     @include breakpoint($screen-tablet) {
       border-left-width: 2px;
       border-left-style: dotted;
       border-left-color: $color-blue;
-      height: 10em;
       text-align: left;
+      width: 120px;
+      height: 100px;
+      float: left;
+      margin: 0;
+      padding: 0 $grid-gutter-half;
       &.last {
         border-right: 2px dotted $color-blue;
       }
     }
   }
   h3, h4 {
+    font-family: $font-family-sans-condensed;
     font-weight: 700;
     text-transform: uppercase;
   }
   h3 {
     border-bottom-width: 2px;
     border-bottom-style: dotted;
-    font-size: 4em;
+    @include adjust-font-size-to($font-size-h1);
     margin-top: 0;
   }
   h4 {
@@ -96,19 +173,10 @@ ul.facts {
   }
 }
 
-.carousel-indicators {
-  bottom: $grid-gutter-half !important;
-  right: $grid-gutter-half;
-  left: auto;
-  width: auto;
-}
 
 #quotes {
-  padding-bottom: 3em;
-  padding-top: 3em;
-  > div {
-    padding-left: $grid-gutter-width;
-    padding-right: $grid-gutter-width;
+  @include breakpoint($screen-tablet) {
+    padding: rhythm(4);
   }
   p {
     margin: 0;
@@ -118,7 +186,7 @@ ul.facts {
       border-bottom: 2px dotted $color-blue;
       border-top: 2px dotted $color-blue;
       color: $text-color;
-      font-size: $font-size-large;
+      @include adjust-font-size-to($font-size-large);
       padding: $grid-gutter-half 0;
       font-style: italic;
     }

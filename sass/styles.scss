@@ -1,6 +1,8 @@
 // General Compass plugins
+@import "compass/reset";
 @import "compass/css3";
 @import "compass/utilities/general/clearfix";
+@import "compass/typography/vertical_rhythm";
 @import "breakpoint";
 
 // Import Google Fonts
@@ -10,3 +12,6 @@
 @import "variables";
 @import "mixins";
 @import "custom-styles";
+
+// Set rhythm
+@include establish-baseline();
