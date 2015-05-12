@@ -8,25 +8,43 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-serif;
   font-weight: normal;
 }
+h1 {
+  font-size: $font-size-h1;
+  line-height: normal;
+}
 h2 {
-  
+  @include adjust-font-size-to($font-size-h2);
 }
 p {
   @include trailer();
+}
+
+a {
+  &:link {
+    text-decoration: none;
+    color: $brand-primary;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $gray-darker;
+  }
+  &:visited {
+    text-decoration: none;
+    color: $brand-primary;
+  }
 }
 
 #header {
   @include background(url('../images/color-ribbon.png') 0 bottom repeat-x, linear-gradient(left, #231F20, #565759 22%, #231F20 57%, #818285));
   color: white;
   padding-bottom: 7px;
+  text-align: center;
   @include clearfix();
   .container {
     position: relative;
   }
-  #logo {
-    margin-top: $grid-gutter-half;
-    margin-bottom: $grid-gutter-half;
-    float: left;
+  #logo, #logo-85th {
+    padding: $grid-gutter-half;
   }
   h1 {
     
@@ -34,23 +52,10 @@ p {
     font-weight: 700;
     text-transform: uppercase;
   }
-  #logo-85th {
-    position: absolute;
-    width: $grid-gutter-width;
-    height: $grid-gutter-width;
-    top: 27px;
-    right: $grid-gutter-half;
-    background: $gray-lighter none;
-    color: $gray-dark;
-    text-align: center;
-    font-family: $font-family-serif;
-  }
 }
 
 #main {
   background-color: #fff;
-  padding-top: $grid-gutter-width;
-  padding-bottom: 3em;
 }
 
 .container {
@@ -61,8 +66,10 @@ p {
 }
 
 section {
+  margin-bottom: $grid-gutter-width;
   &.headline {
     color: #fff;
+    margin-bottom: 0;
     h2 {
       
     }
@@ -99,6 +106,7 @@ a.btn {
   &:hover {
     background: lighten($color-pink, 10) none;
   }
+  @include trailer();
 }
 
 .align-center {
@@ -109,24 +117,17 @@ a.btn {
 }
 
 #teaser {
+  #col-txt .inner {
+    padding: $grid-gutter-half;
+  }
   @include breakpoint($screen-tablet) {
     @include clearfix();
     .col {
       width: 50%;
       float: left;
     }
-    .inner {
-      padding: 0 $grid-gutter-half;
-    }
-  }
-  @include breakpoint($screen-desktop) {
-    #col-txt .inner {
-      padding: 0 2em;
-    }
-  }
-  @include breakpoint($screen-lg-desktop) {
-    #col-txt .inner {
-      padding: 2em;
+    #col-img .inner {
+      padding: $grid-gutter-half;
     }
   }
 }
@@ -148,7 +149,7 @@ ul.facts {
       border-left-color: $color-blue;
       text-align: left;
       width: 120px;
-      height: 100px;
+      height: 120px;
       float: left;
       margin: 0;
       padding: 0 $grid-gutter-half;
@@ -165,43 +166,103 @@ ul.facts {
   h3 {
     border-bottom-width: 2px;
     border-bottom-style: dotted;
-    
+    font-size: 75px;
+    line-height: 75px;
+    letter-spacing: -5px;
     margin-top: 0;
   }
   h4 {
+    margin-top: 4px;
     font-size: $font-size-base;
+    line-height: $font-size-base;
   }
 }
 
 
 #quotes {
+  padding: $grid-gutter-half;
+  .col-first {
+    margin-bottom: $grid-gutter-width;
+  }
   @include breakpoint($screen-tablet) {
-    padding: rhythm(4);
+    @include clearfix();
+    .col {
+      width: 50%;
+      float: left;
+    }
+    .col-first .inner {
+      padding-left: 20%;
+      padding-right: $grid-gutter-half;
+    }
+    .col-last .inner {
+      padding-right: 20%;
+      padding-left: $grid-gutter-half;
+    }
   }
   p {
     margin: 0;
     color: $color-blue;
     font-family: $font-family-serif;
+    font-size: 21px;
+    line-height: 30px;
     &.quote {
       border-bottom: 2px dotted $color-blue;
       border-top: 2px dotted $color-blue;
-      color: $text-color;
-      
+      margin-bottom: $grid-gutter-half;
+      color: $text-color;      
       padding: $grid-gutter-half 0;
       font-style: italic;
     }
     &.person {
       text-transform: uppercase;
+      line-height: normal;
     }
     &.organization {
       font-family: $font-family-base;
       text-transform: uppercase;
-      font-size: $font-size-small;
+      font-size: 12px;
+      line-height: 26px;
     }
     &.headline {
       font-style: italic;
+      line-height: normal;
     }
   }
+}
+
+#give {
+  margin-bottom: 0;
+  a.btn {
+    @include gradient-blue();
+  }
+}
+
+// Customise slides js
+.slides {
+  position: relative;
+}
+.slidesjs-pagination {
+  position: absolute;
+  right: $grid-gutter-half;
+  bottom: $grid-gutter-half;
+  z-index: 9999;
+  li {
+    float: left;
+    margin-left: 4px;
+  }
+  a {
+    display: block;
+    width: 12px;
+    height: 12px;
+    @include border-radius(12px);
+    text-indent: -9999px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.4);
+    &.active {
+      background: #fff none;
+    }
+  }
+
 }
 
 @media all and (min-width: 701px) {

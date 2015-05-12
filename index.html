@@ -34,7 +34,7 @@
             <h1 id="site-name">George Soros Leadership Fund</h1>
           </div>
           <div id="logo-85th">
-            <div>85</div>
+            <img src="images/gs85-logo.png" />
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@
           <h2 class="align-center">At the core of CEU’s mission is a set of principles: the pursuit of truth wherever it leads, respect for the diversity of cultures and peoples, and commitment to resolve differences through rational debate and the instrument of democracy.</h2>
       </section>
       <section class="slider">
-        <div id="slides-1">
+        <div id="slides-1" class="slides">
           <img src="images/carousel-1-slide-1.png" />
           <img src="images/carousel-1-slide-2.png" />
         </div>
@@ -103,30 +103,34 @@
           <h2 class="align-center">Advancing these principles requires leadership, vision, and the ability to work across disciplines. CEU prepares young scholars to tackle 21st century challenges from bioethics, corporate responsibility, and environmental security to media freedom, data privacy, and minority rights.</h2>
       </section>
       <section class="slider">
-        <div id="slides-2">
+        <div id="slides-2" class="slides">
           <img src="images/carousel-2-slide-1.png" />
           <img src="images/carousel-2-slide-2.png" />
         </div>
       </section>
       <section id="quotes">
-        <div class="col">
+        <div class="col col-first">
+          <div class="inner">
           <p class="quote">“Even Boston, international hub of higher education, has nothing like Central European University.”</p>
           <p class="person">Colin Nickerson</p>
           <p class="organization">Bostonglobe.com</p>
           <p class="headline">A School of Human Rights in Budapest</p>
+          </div>
         </div>
-        <div class="col">
+        <div class="col col-last">
+        <div class="inner">
           <p class="quote">“The university is addressing some of these big questions in a project called "frontiers of democracy." What does freedom mean in an era of digital information? What is the place for local identity in a globalised economy? How can an open society be defended?”</p>
           <p class="person">Sean Coughlan</p>
           <p class="organization">BBC News Business</p>
           <p class="headline">The University With a Laboratory for Democracy</p>
+        </div>
         </div>
       </section>
       <section class="headline gradient-green">
         <h2 class="align-center">The George Soros Leadership Fund will support scholarships, reflecting CEU’s deep commitment to ensuring that outstanding scholars from all corners of the globe—particularly those from developing countries—have access to a world-class education.</h2>
       </section>
       <section class="slider">
-        <div id="slides-3">
+        <div id="slides-3" class="slides">
           <img src="images/carousel-3-slide-1.png" />
           <img src="images/carousel-3-slide-2.png" />
         </div>
@@ -134,7 +138,7 @@
       <section class="headline gradient-pink">
         <h2 class="align-center">Gifts to the Fund will also support leadership preparation initiatives like CEU’s <a href="www.nytimes.com/2013/07/08/world/europe/For-Roma-a-Steppingstone-to-Graduate-School.html?_r=1" alt="For Roma a Steppingstone to Graduate School">flagship Roma Access Programs,</a> dedicated to increasing opportunities for talented Roma students to attend graduate school or launch professional careers.</h2>
       </section>
-      <section>
+      <section id="give">
         <div class="align-center">
           <a href="giving.html" class="btn btn-default btn-donate">Give</a>
         </div>
@@ -148,15 +152,24 @@
       $(function(){
         $("#slides-1").slidesjs({
           width: 1250,
-          height: 350
+          height: 350,
+          navigation: {
+            active: false
+          }
         });
         $("#slides-2").slidesjs({
           width: 1250,
-          height: 350
+          height: 350,
+          navigation: {
+            active: false
+          }
         });
         $("#slides-3").slidesjs({
           width: 1250,
-          height: 350
+          height: 350,
+          navigation: {
+            active: false
+          }
         });
       });
     </script>
