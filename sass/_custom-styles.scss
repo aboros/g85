@@ -47,10 +47,29 @@ a {
     padding: $grid-gutter-half;
   }
   h1 {
-    
     font-family: $font-family-sans-serif;
     font-weight: 700;
     text-transform: uppercase;
+  }
+  @include breakpoint($screen-tablet) {
+    text-align: left;
+    #logo {
+      float: left;
+    }
+    h1 {
+      float: left;
+      margin-top: 19px;
+      margin-left: 2 * $grid-gutter-width;
+      width: 400px;
+    }
+    #logo-85th {
+      float: right;
+    }
+  }
+  @include breakpoint($screen-desktop) {
+    h1 {
+      width: auto;
+    }
   }
 }
 
@@ -153,6 +172,15 @@ ul.facts {
       float: left;
       margin: 0;
       padding: 0 $grid-gutter-half;
+      &.first {
+        border-left: none;
+      }
+      
+    }
+    @include breakpoint($screen-desktop) {
+      &.first {
+        border-left: 2px dotted $color-blue;
+      }
       &.last {
         border-right: 2px dotted $color-blue;
       }
