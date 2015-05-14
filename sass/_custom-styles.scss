@@ -148,15 +148,37 @@ a.btn {
 #teaser {
   #col-txt .inner {
     padding: $grid-gutter-half;
+    text-align: justify;
   }
   @include breakpoint($screen-tablet) {
     @include clearfix();
     .col {
-      width: 50%;
       float: left;
+      width: 50%;
+      .inner {
+        padding: $grid-gutter-half;
+      }
     }
-    #col-img .inner {
-      padding: $grid-gutter-half;
+  }
+  @include breakpoint($screen-lg-desktop) {
+    .col .inner {
+      padding: 0;
+    }
+    #col-img {
+      width: 540px;
+      padding-top: 45px;
+      .inner {
+        padding-left: 45px;
+      }
+    }
+    #col-txt {
+      font-size: 18px;
+      line-height: 34px;
+      width: 480px;
+      padding: 90px;
+      .inner {
+        padding: 0;
+      }
     }
   }
 }
