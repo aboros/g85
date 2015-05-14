@@ -42,7 +42,10 @@
       <section id="teaser">
       <div id="col-img" class="col">
         <div class="inner">
-          <img src="images/gs-2014-graduation.jpg" alt="George Soros" class="img-responsive">
+          <div id="slides-teaser" class="slides">
+            <img src="images/slide-teaser-1.jpg" />
+            <img src="images/slide-teaser-2.jpg" />
+          </div>
         </div>
         </div>
         <div id="col-txt" class="col">
@@ -149,6 +152,13 @@
     <script type="text/javascript" src="javascripts/jquery.slides.min.js"></script>
     <script>
       $(function(){
+        $("#slides-teaser").slidesjs({
+          width: 537,
+          height: 670,
+          navigation: {
+            active: false
+          }
+        });
         $("#slides-1").slidesjs({
           width: 1250,
           height: 350,
