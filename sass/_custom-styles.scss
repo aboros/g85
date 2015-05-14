@@ -81,6 +81,7 @@ a {
 
 #main {
   background-color: #fff;
+  padding-bottom: 3em;
 }
 
 .container {
@@ -412,5 +413,21 @@ ul.facts {
   border-color: $color-purple;
   > * {
     border-color: $color-purple;
+  }
+}
+
+#giving-form {
+  .content {
+    padding: $grid-gutter-width 90px 0 90px;
+  }
+  .lead {
+    @include adjust-font-size-to($font-size-h2);
+  }
+  footer {
+    @include trailer();
+  }
+  input#bboxdonation_btnSubmit {
+    @include border-radius(0);
+    @include gradient-blue;
   }
 }
