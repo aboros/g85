@@ -55,33 +55,26 @@ a {
     text-align: left;
     #logo {
       float: left;
+      padding-top: 26px;
+      padding-right: 2 * $grid-gutter-width;
     }
     #site-name {
       float: left;
       width: 300px;
+      padding-top: 23px;
     }
     #logo-85th {
       float: right;
     }
   }
-  @include breakpoint($screen-desktop $screen-lg-desktop) {
+  @include breakpoint($screen-desktop){
     position: relative;
     #site-name {
       position: absolute;
-      left: 25%;
-      top: 27px;
-      width: 100%;
-    }
-  }
-  @include breakpoint($screen-lg-desktop) {
-    #site-name {
       top: 46px;
+      padding-top: 0;
       width: 100%;
       text-align: center;
-      position: absolute;
-    }
-    #logo {
-      padding-top: 26px;
     }
   }
 }
@@ -160,6 +153,11 @@ a.btn {
       width: 50%;
       .inner {
         padding: $grid-gutter-half;
+      }
+    }
+    #col-txt {
+      .inner {
+        padding-right: $grid-gutter-width;
       }
     }
   }
@@ -265,7 +263,7 @@ ul.facts {
   @include breakpoint($screen-lg-desktop) {
     .col-first .inner {
       padding-left: 186px;
-      padding-right: 60px;
+      padding-right: 57px;
     }
     .col-last .inner {
       padding-left: 57px;
