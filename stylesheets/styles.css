@@ -90,8 +90,8 @@ h1 {
 
 /* line 15, ../sass/_custom-styles.scss */
 h2 {
-  font-size: 1.57143em;
-  line-height: 1.90909em;
+  font-size: 1.64286em;
+  line-height: 1.82609em;
 }
 
 /* line 18, ../sass/_custom-styles.scss */
@@ -651,6 +651,37 @@ ul.facts h4 {
   background: linear-gradient(to right, #005783, #00ccea, #005783);
 }
 
+@media (min-width: 1250px) {
+  /* line 443, ../sass/_custom-styles.scss */
+  section.headline {
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+
+  /* line 447, ../sass/_custom-styles.scss */
+  #headline-1 {
+    padding-left: 195px;
+    padding-right: 195px;
+  }
+
+  /* line 451, ../sass/_custom-styles.scss */
+  #headline-2 {
+    padding-left: 118px;
+    padding-right: 118px;
+  }
+
+  /* line 455, ../sass/_custom-styles.scss */
+  #headline-3 {
+    padding-left: 175px;
+    padding-right: 175px;
+  }
+
+  /* line 459, ../sass/_custom-styles.scss */
+  #headline-4 {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
 /* line 106, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 87.5%;
