@@ -418,10 +418,16 @@ ul.facts {
 
 #giving-form {
   .content {
-    padding: $grid-gutter-width 90px 0 90px;
+    padding: $grid-gutter-half;
+    @include breakpoint($screen-desktop) {
+      padding: $grid-gutter-width 90px 0 90px;
+    }
   }
   .lead {
-    @include adjust-font-size-to($font-size-h2);
+    @include adjust-font-size-to($font-size-h4);
+    @include breakpoint($screen-desktop) {
+      @include adjust-font-size-to($font-size-h3);
+    }
   }
   footer {
     @include trailer();
