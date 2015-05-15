@@ -328,7 +328,6 @@ ul.facts {
     height: 8px;
     @include border-radius(8px);
     text-indent: -9999px;
-    border: 1px solid #fff;
     background: rgba(255, 255, 255, 0.4);
     &.active {
       background: #fff none;
