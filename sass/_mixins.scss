@@ -4,7 +4,7 @@
 }
 
 @mixin gradient-blue {
-  @include background(linear-gradient(left, #005783, #00CCEA, #005783));
+  @include background(linear-gradient(left, #005783, #00B2D3, #005783));
 }
 
 @mixin gradient-green {
