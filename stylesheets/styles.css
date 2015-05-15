@@ -680,6 +680,29 @@ ul.facts h4 {
     padding-left: 150px;
     padding-right: 150px;
   }
+
+  /* line 462, ../sass/_custom-styles.scss */
+  section#facts {
+    padding: 26px 0;
+  }
+
+  /* line 465, ../sass/_custom-styles.scss */
+  ul.facts {
+    width: 912px;
+  }
+  /* line 467, ../sass/_custom-styles.scss */
+  ul.facts li {
+    padding: 0 25px;
+  }
+  /* line 469, ../sass/_custom-styles.scss */
+  ul.facts li.first {
+    width: 170px;
+  }
+  /* line 473, ../sass/_custom-styles.scss */
+  ul.facts h3 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing: -3px;
+  }
 }
 /* line 106, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
