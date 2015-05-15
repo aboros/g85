@@ -96,23 +96,20 @@ section {
   &.headline {
     color: #fff;
     margin-bottom: 0;
-    h2 {
-      
-    }
     padding: rhythm(1);
     @include breakpoint($screen-tablet) {
-      h2 {
-        
-      }
       padding: rhythm(2) rhythm(4);
     }
     @include breakpoint($screen-desktop) {
-      h2 {
-        
-      }
       padding: rhythm(1) rhythm(6);
     }
     
+  }
+  &#headline-1 {
+    padding-top: 0;
+    h2 {
+      padding-top: rhythm(1);
+    }
   }
 }
 
@@ -435,6 +432,12 @@ ul.facts {
     @include border-radius(0);
     @include gradient-blue;
   }
+}
+
+img#scroll-icon {
+  width: 50px;
+  height: 43px;
+  margin: -22px auto 0 auto;
 }
 
 // Must have exact margins on large desktop
