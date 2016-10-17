@@ -43,7 +43,7 @@ a {
   .container {
     position: relative;
   }
-  #logo, #logo-85th {
+  #logo {
     padding: $grid-gutter-half $grid-gutter-half 10px $grid-gutter-half;
   }
   h1 {
@@ -62,9 +62,6 @@ a {
       float: left;
       width: 300px;
       padding-top: 23px;
-    }
-    #logo-85th {
-      float: right;
     }
   }
   @include breakpoint($screen-desktop){
@@ -103,7 +100,7 @@ section {
     @include breakpoint($screen-desktop) {
       padding: rhythm(1) rhythm(6);
     }
-    
+
   }
   &#headline-1 {
     padding-top: 0;
@@ -206,7 +203,7 @@ ul.facts {
       &.first {
         border-left: none;
       }
-      
+
     }
     @include breakpoint($screen-desktop) {
       &.first {
@@ -278,7 +275,7 @@ ul.facts {
       border-bottom: 2px dotted $color-blue;
       border-top: 2px dotted $color-blue;
       margin-bottom: $grid-gutter-half;
-      color: $text-color;      
+      color: $text-color;
       padding: $grid-gutter-half 0;
       font-style: italic;
     }
